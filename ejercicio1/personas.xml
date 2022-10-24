@@ -2,13 +2,14 @@
 <personas>
 	<persona nombre="Jesús" apellidos="Alonso García">
 		<nacimiento fecha="05/07/2000" lugar="Oviedo">
-			<coordenadas>
-				<altitud valor=""/>
-				<latitud valor=""/>
-				<longitud valor=""/>
-			</coordenadas>
+			<coordenadas altitud="" latitud="" longitud=""/>
 		</nacimiento>
-		<fotografia path=""/>
+		<fotografias>
+			<fotografia path=""/>
+		</fotografias>
+		<videos>
+			<video path=""/>
+		</videos>
 		<comentarios>
 			<comentario valor="Un maquina"/>
 		</comentarios>

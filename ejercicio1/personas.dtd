@@ -1,1 +1,26 @@
-<!ELEMENT personas(persona+)>
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nacimiento, fotografia, video, comentarios, persona+)>
+<!ELEMENT nacimiento (coordenadas)>
+<!ELEMENT coordenadas (#PCDATA)>
+<!ELEMENT fotografias (fotografia+)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT videos (video*)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT comentarios (comentario*)>
+<!ELEMENT comentario (#PCDATA)>
+<!ATTLIST persona
+    nombre CDATA #REQUIRED
+    apellidos CDATA #REQUIRED
+>
+<!ATTLIST nacimiento
+    fecha CDATA #REQUIRED
+    lugar CDATA #REQUIRED
+>
+<!ATTLIST coordenadas
+    altitud CDATA #REQUIRED
+    latitud CDATA #REQUIRED
+    longitud CDATA #REQUIRED
+>
+<!ATTLIST fotografia path CDATA #REQUIRED>
+<!ATTLIST video path CDATA #REQUIRED>
+<!ATTLIST comentario valor CDATA #REQUIRED>
