@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "personas.dtd">
 <personas>
 	<persona nombre="Jesús" apellidos="Alonso García">
 		<nacimiento fecha="05/07/2000" lugar="Oviedo">
@@ -13,5 +14,199 @@
 		<comentarios>
 			<comentario valor="Un maquina"/>
 		</comentarios>
+		<amigos>
+			<persona nombre="Earlene" apellidos="Aleks">
+				<nacimiento fecha="16/10/1950" lugar="A coruña">
+					<coordenadas altitud="" latitud="" longitud=""/>
+				</nacimiento>
+				<fotografias>
+					<fotografia path=""/>
+				</fotografias>
+				<videos>
+					<video path=""/>
+				</videos>
+				<comentarios>
+					<comentario valor="Un maquina"/>
+				</comentarios>
+				<amigos>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="24/12/1963" lugar="Leon">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="18/08/1964" lugar="Bilbao">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="15/02/1984" lugar="Benidorm">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+				</amigos>
+			</persona>
+			<persona nombre="Jesús" apellidos="Alonso García">
+				<nacimiento fecha="25/03/1987" lugar="Gijon">
+					<coordenadas altitud="" latitud="" longitud=""/>
+				</nacimiento>
+				<fotografias>
+					<fotografia path=""/>
+				</fotografias>
+				<videos>
+					<video path=""/>
+				</videos>
+				<comentarios>
+					<comentario valor="Un maquina"/>
+				</comentarios>
+				<amigos>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="20/04/1992" lugar="Aviles">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="01/08/1994" lugar="Candas">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="02/07/1998" lugar="Sevilla">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+				</amigos>
+			</persona>
+			<persona nombre="Jesús" apellidos="Alonso García">
+				<nacimiento fecha="20/03/2008" lugar="Madrid">
+					<coordenadas altitud="" latitud="" longitud=""/>
+				</nacimiento>
+				<fotografias>
+					<fotografia path=""/>
+				</fotografias>
+				<videos>
+					<video path=""/>
+				</videos>
+				<comentarios>
+					<comentario valor="Un maquina"/>
+				</comentarios>
+				<amigos>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="17/12/2013" lugar="Barcelona">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="20/05/2015" lugar="Valencia">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+					<persona nombre="Jesús" apellidos="Alonso García">
+						<nacimiento fecha="12/02/2016" lugar="Jaen">
+							<coordenadas altitud="" latitud="" longitud=""/>
+						</nacimiento>
+						<fotografias>
+							<fotografia path=""/>
+						</fotografias>
+						<videos>
+							<video path=""/>
+						</videos>
+						<comentarios>
+							<comentario valor="Un maquina"/>
+						</comentarios>
+						<amigos>
+						</amigos>
+					</persona>
+				</amigos>
+			</persona>
+		</amigos>
 	</persona>
 </personas>
