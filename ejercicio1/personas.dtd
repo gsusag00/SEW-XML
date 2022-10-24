@@ -1,4 +1,3 @@
-<!ELEMENT personas (persona+)>
 <!ELEMENT persona (nacimiento, fotografias, videos?, comentarios?, amigos?)>
 <!ELEMENT nacimiento (coordenadas)>
 <!ELEMENT coordenadas (#PCDATA)>
