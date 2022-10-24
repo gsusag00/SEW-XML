@@ -42,8 +42,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 					<persona nombre="Jesús" apellidos="Alonso García">
 						<nacimiento fecha="18/08/1964" lugar="Bilbao">
@@ -58,8 +56,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 					<persona nombre="Jesús" apellidos="Alonso García">
 						<nacimiento fecha="15/02/1984" lugar="Benidorm">
@@ -74,8 +70,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 				</amigos>
 			</persona>
@@ -106,8 +100,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 					<persona nombre="Jesús" apellidos="Alonso García">
 						<nacimiento fecha="01/08/1994" lugar="Candas">
@@ -122,8 +114,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 					<persona nombre="Jesús" apellidos="Alonso García">
 						<nacimiento fecha="02/07/1998" lugar="Sevilla">
@@ -138,8 +128,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 				</amigos>
 			</persona>
@@ -170,8 +158,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 					<persona nombre="Jesús" apellidos="Alonso García">
 						<nacimiento fecha="20/05/2015" lugar="Valencia">
@@ -186,8 +172,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 					<persona nombre="Jesús" apellidos="Alonso García">
 						<nacimiento fecha="12/02/2016" lugar="Jaen">
@@ -202,8 +186,6 @@
 						<comentarios>
 							<comentario valor="Un maquina"/>
 						</comentarios>
-						<amigos>
-						</amigos>
 					</persona>
 				</amigos>
 			</persona>
