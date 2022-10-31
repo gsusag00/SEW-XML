@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE personas SYSTEM "personas.dtd">
-<persona nombre="Jesús" apellidos="Alonso García">
+<persona xmlns="http://www.uniovi.es/personas" xsi:schemaLocation="http://www.uniovi.es/personas personas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nombre="Jesús" apellidos="Alonso García">
 	<nacimiento fecha="05/07/2000" lugar="Oviedo">
 		<coordenadas altitud="" latitud="" longitud=""/>
 	</nacimiento>
