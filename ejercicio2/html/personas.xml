@@ -4,7 +4,7 @@
 		<coordenadas altitud="" latitud="" longitud=""/>
 	</nacimiento>
 	<fotografias>
-		<fotografia path=""/>
+		<fotografia path="img/f1.png"/>
 	</fotografias>
 	<videos>
 		<video path=""/>
@@ -27,7 +27,7 @@
 				<comentario valor="Un maquina"/>
 			</comentarios>
 			<amigos>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Joanna" apellidos="Dominguez">
 					<nacimiento fecha="24/12/1963" lugar="Leon">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -41,7 +41,7 @@
 						<comentario valor="Un maquina"/>
 					</comentarios>
 				</persona>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Marissa" apellidos="Montoya">
 					<nacimiento fecha="18/08/1964" lugar="Bilbao">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -55,7 +55,7 @@
 						<comentario valor="Un maquina"/>
 					</comentarios>
 				</persona>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Valerie" apellidos="Larson">
 					<nacimiento fecha="15/02/1984" lugar="Benidorm">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -71,7 +71,7 @@
 				</persona>
 			</amigos>
 		</persona>
-		<persona nombre="Jesús" apellidos="Alonso García">
+		<persona nombre="Bridget" apellidos="Cisneros">
 			<nacimiento fecha="25/03/1987" lugar="Gijon">
 				<coordenadas altitud="" latitud="" longitud=""/>
 			</nacimiento>
@@ -85,7 +85,7 @@
 				<comentario valor="Un maquina"/>
 			</comentarios>
 			<amigos>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Liz" apellidos="Charles">
 					<nacimiento fecha="20/04/1992" lugar="Aviles">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -99,7 +99,7 @@
 						<comentario valor="Un maquina"/>
 					</comentarios>
 				</persona>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Booker" apellidos="Dawson">
 					<nacimiento fecha="01/08/1994" lugar="Candas">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -113,7 +113,7 @@
 						<comentario valor="Un maquina"/>
 					</comentarios>
 				</persona>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Wanda" apellidos="Bennett">
 					<nacimiento fecha="02/07/1998" lugar="Sevilla">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -129,7 +129,7 @@
 				</persona>
 			</amigos>
 		</persona>
-		<persona nombre="Jesús" apellidos="Alonso García">
+		<persona nombre="Rory" apellidos="Zhang">
 			<nacimiento fecha="20/03/2008" lugar="Madrid">
 				<coordenadas altitud="" latitud="" longitud=""/>
 			</nacimiento>
@@ -143,7 +143,7 @@
 				<comentario valor="Un maquina"/>
 			</comentarios>
 			<amigos>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Jayne" apellidos="Hunt">
 					<nacimiento fecha="17/12/2013" lugar="Barcelona">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -157,7 +157,7 @@
 						<comentario valor="Un maquina"/>
 					</comentarios>
 				</persona>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Polly" apellidos="Waller">
 					<nacimiento fecha="20/05/2015" lugar="Valencia">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
@@ -171,7 +171,7 @@
 						<comentario valor="Un maquina"/>
 					</comentarios>
 				</persona>
-				<persona nombre="Jesús" apellidos="Alonso García">
+				<persona nombre="Wilford" apellidos="Cameron">
 					<nacimiento fecha="12/02/2016" lugar="Jaen">
 						<coordenadas altitud="" latitud="" longitud=""/>
 					</nacimiento>
