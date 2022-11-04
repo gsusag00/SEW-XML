@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persona xmlns="http://www.uniovi.es/personas" xsi:schemaLocation="http://www.uniovi.es/personas personas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nombre="Jesus" apellidos="Alonso Garcia">
+<persona xmlns="http://www.uniovi.es/personas" xsi:schemaLocation="http://www.uniovi.es/personas personas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nombre="Jesús" apellidos="Alonso García">
 	<nacimiento fecha="05/07/2000" lugar="Oviedo">
-		<coordenadas altitud="" latitud="" longitud=""/>
+		<coordenadas altitud="224" latitud="43.36347538113813" longitud="-5.844540267411897"/>
 	</nacimiento>
 	<fotografias>
 		<fotografia path="img/f1.png"/>
@@ -12,7 +12,7 @@
 	<amigos>
 		<persona nombre="Earlene" apellidos="Aleks">
 			<nacimiento fecha="16/10/1950" lugar="A coruña">
-				<coordenadas altitud="" latitud="" longitud=""/>
+				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
 			</nacimiento>
 			<fotografias>
 				<fotografia path=""/>
@@ -23,7 +23,7 @@
 			<amigos>
 				<persona nombre="Joanna" apellidos="Dominguez">
 					<nacimiento fecha="24/12/1963" lugar="Leon">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="827" latitud="42.60080451442869" longitud="-5.573273793628222"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -34,7 +34,7 @@
 				</persona>
 				<persona nombre="Marissa" apellidos="Montoya">
 					<nacimiento fecha="18/08/1964" lugar="Bilbao">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="14" latitud="43.267802182831296" longitud="-2.9332234211251147"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -45,7 +45,7 @@
 				</persona>
 				<persona nombre="Valerie" apellidos="Larson">
 					<nacimiento fecha="15/02/1984" lugar="Benidorm">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="14" latitud="38.547322219459964" longitud="-0.12553480285098015"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -58,18 +58,18 @@
 		</persona>
 		<persona nombre="Bridget" apellidos="Cisneros">
 			<nacimiento fecha="25/03/1987" lugar="Gijon">
-				<coordenadas altitud="" latitud="" longitud=""/>
+				<coordenadas altitud="14" latitud="43.53204537348051" longitud=" -5.661588678368995"/>
 			</nacimiento>
 			<fotografias>
 				<fotografia path=""/>
 			</fotografias>
 			<comentarios>
-				<comentario valor="Juega muy bien al futbol"/>
+				<comentario valor="Juega muy bien al fútbol"/>
 			</comentarios>
 			<amigos>
 				<persona nombre="Liz" apellidos="Charles">
 					<nacimiento fecha="20/04/1992" lugar="Aviles">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="2" latitud="43.55940487852019" longitud="-5.923857470041392"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -80,7 +80,7 @@
 				</persona>
 				<persona nombre="Booker" apellidos="Dawson">
 					<nacimiento fecha="01/08/1994" lugar="Candas">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="51" latitud="43.59032425126038" longitud="-5.767211364172307"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -91,7 +91,7 @@
 				</persona>
 				<persona nombre="Wanda" apellidos="Bennett">
 					<nacimiento fecha="02/07/1998" lugar="Sevilla">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="6" latitud="37.392536442706486" longitud="-5.983213245168238"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -104,7 +104,7 @@
 		</persona>
 		<persona nombre="Rory" apellidos="Zhang">
 			<nacimiento fecha="20/03/2008" lugar="Madrid">
-				<coordenadas altitud="" latitud="" longitud=""/>
+				<coordenadas altitud="669" latitud="40.43055280114602" longitud="-3.707012187865398"/>
 			</nacimiento>
 			<fotografias>
 				<fotografia path=""/>
@@ -115,7 +115,7 @@
 			<amigos>
 				<persona nombre="Jayne" apellidos="Hunt">
 					<nacimiento fecha="17/12/2013" lugar="Barcelona">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="731" latitud="41.37976747685414" longitud="2.1089443268284307"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -126,7 +126,7 @@
 				</persona>
 				<persona nombre="Polly" apellidos="Waller">
 					<nacimiento fecha="20/05/2015" lugar="Valencia">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="6" latitud="39.48299660008014" longitud="-0.3752540631832583"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>
@@ -137,7 +137,7 @@
 				</persona>
 				<persona nombre="Wilford" apellidos="Cameron">
 					<nacimiento fecha="12/02/2016" lugar="Jaen">
-						<coordenadas altitud="" latitud="" longitud=""/>
+						<coordenadas altitud="497" latitud="37.779190851694956" longitud="-3.7847904126829364"/>
 					</nacimiento>
 					<fotografias>
 						<fotografia path=""/>

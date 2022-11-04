@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name>Red Social</name>
+    <Placemark>
+      <name>Jesus Alonso Garcia</name>
+      <Point>
+        <coordinates>
+-5.844540267411897,43.36347538113813,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Earlene Aleks</name>
+      <Point>
+        <coordinates>
+-8.409596135871102,43.368342209026466,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Joanna Dominguez</name>
+      <Point>
+        <coordinates>
+-5.573273793628222,42.60080451442869,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marissa Montoya</name>
+      <Point>
+        <coordinates>
+-2.9332234211251147,43.267802182831296,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valerie Larson</name>
+      <Point>
+        <coordinates>
+-0.12553480285098015,38.547322219459964,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bridget Cisneros</name>
+      <Point>
+        <coordinates>
+ -5.661588678368995,43.53204537348051,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Liz Charles</name>
+      <Point>
+        <coordinates>
+-5.923857470041392,43.55940487852019,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Booker Dawson</name>
+      <Point>
+        <coordinates>
+-5.767211364172307,43.59032425126038,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wanda Bennett</name>
+      <Point>
+        <coordinates>
+-5.983213245168238,37.392536442706486,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rory Zhang</name>
+      <Point>
+        <coordinates>
+-3.707012187865398,40.43055280114602,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jayne Hunt</name>
+      <Point>
+        <coordinates>
+2.1089443268284307,41.37976747685414,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Polly Waller</name>
+      <Point>
+        <coordinates>
+-0.3752540631832583,39.48299660008014,0
+</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wilford Cameron</name>
+      <Point>
+        <coordinates>
+-3.7847904126829364,37.779190851694956,0
+</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
