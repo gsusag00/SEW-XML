@@ -19,12 +19,11 @@ def parseXML(file):
         exit()
     return cadena
 
-def createHTML(cadena):
-    estilo = '.\estilo.css' 
+def createKML(cadena):
     raiz = cadena.getroot()
-    doc.asis('<!DOCTYPE html>')
-    with tag('html'):
-        doc.attr(lang='es')
+    doc.asis('<!xml version="1.0" encoding="UTF-8"?>')
+    with tag('kml'):
+        doc.attr(xmlns="https://www.opengis.net/kml/2.2")
         with tag('head'):
             doc.stag('meta',charset='UTF-8')
             doc.stag('link', rel='stylesheet', href=estilo)
