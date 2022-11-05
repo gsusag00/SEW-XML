@@ -4,6 +4,14 @@ from yattag import indent
 import codecs
 namespace = "{http://www.uniovi.es/personas}"
 doc, tag, text, line = Doc().ttl()
+initialx = 20
+initialy = 20
+width = 200
+height = 70
+rectstyle = "fill:white; stroke:black;stroke-width:1"
+linestyle = "fill:transparent;stroke:black"
+personstyle = "fill:blue"
+textstyle = "fill:black"
 """
     Parsea el xml, devuelve una lista con el xml paraseado
 """
@@ -20,67 +28,51 @@ def parseXML(file):
     return cadena
 
 def createHTML(cadena):
-    estilo = '.\estilo.css' 
     raiz = cadena.getroot()
-    doc.asis('<!DOCTYPE html>')
-    with tag('html'):
-        doc.attr(lang='es')
-        with tag('head'):
-            doc.stag('meta',charset='UTF-8')
-            doc.stag('link', rel='stylesheet', href=estilo)
-            with tag('title'):
-                text('Red Social.')
-        with tag('body'):
-            with tag('h1'):
-                text('Red Social')
-            processPersona(raiz,2)   
+    doc.asis('<?xml version="1.0" encoding="UTF-8"?>')
+    with tag('svg'):
+        doc.attr(width='2000')
+        doc.attr(height='2000')
+        doc.attr(style='overflow:visible')
+        doc.attr(version='1.1')
+        doc.attr(xmlns='http://www.w3.org/2000/svg')
+        drawRecs(raiz,initialx,initialy,3)   
     return indent(doc.getvalue())
 
-def processPersona(persona,header):
-    nombre = persona.attrib['nombre']
-    apellido = persona.attrib['apellidos']
-    with tag('h'+str(header)):
-        text(nombre + ' ' + apellido)
+def drawRecs(persona,xpos,ypos,mult):
+    doc.stag('rect',x=str(xpos), y=str(ypos), width=str(width), height=str(height),style=rectstyle)
+    #persona
+    with tag('text', x=str(xpos+10), y=str(ypos+15), style=personstyle):
+        text('Persona')
+    #nombre
+    with tag('text', x=str(xpos+10), y=str(ypos+30), style=textstyle):
+        text(persona.attrib['nombre'] + ' ' + persona.attrib['apellidos'])
+    #lugar
     nacimiento = persona.find(namespace+"nacimiento")
-    with tag('h' + str(header)):
-        text('Nacimiento:')
-    with tag('p'):
-        text('Fecha: ' + nacimiento.attrib['fecha'])
-    with tag('h' + str(header)):
-        text('Lugar de nacimiento')
-    with tag('p'):
+    with tag('text', x=str(xpos+10), y=str(ypos+45), style=textstyle):
         text('De: ' + nacimiento.attrib['lugar'])
-    with tag('h' + str(header)):
-        text('Fotos')
-    for fotografia in persona.find(namespace+"fotografias").findall(namespace+"fotografia"):
-        with tag('picture'):
-            doc.stag('img',src=fotografia.attrib["path"], alt="Foto del " + nombre + " " + apellido)
-    if persona.find(namespace+'videos') != None:
-        with tag('h' + str(header)):
-            text('Videos')
-        for video in persona.find(namespace+"videos").findall(namespace+"video"):
-            with tag('video'):
-                doc.stag('source',src=video.attrib["path"], type='video/mp4')
-    with tag('h'+str(header)):
-        text('Comentarios: ')
-    for comentario in persona.find(namespace+"comentarios").findall(namespace+"comentario"):
-        with tag('p'):
-            text("Comentario: " + comentario.attrib["valor"])
+    #fecha
+    with tag('text', x=str(xpos+10), y=str(ypos+60), style=textstyle):
+        text('Nacimiento: ' + nacimiento.attrib['fecha'])
     if persona.find(namespace+"amigos") != None:
-        with tag('h'+str(header)):
-            text('Amigos')
+        prevypos = ypos
         for amigo in persona.find(namespace+"amigos").findall(namespace+"persona"):
-            processPersona(amigo,header+1)
+            drawRecs(amigo,xpos+230,ypos,1)
+            drawLine(xpos,ypos,prevypos)
+            ypos += (100 * mult)
     indent(doc.getvalue())
+
+def drawLine(xpos,ypos,prevypos):
+    doc.stag('line',x1=str(xpos+width),y1=str(prevypos+(height/2)),x2=str(xpos+230),y2=str(ypos+(height/2)),style=linestyle)
 
 def main(): 
     
-    file = input('Por favor introduce el archivo que quieres convertir a html\n')
+    file = input('Por favor introduce el archivo que quieres convertir a svg\n')
 
     cadena = parseXML(file)
 
     archivoHTML = createHTML(cadena)
-    archivo = open('redsocial.html','w')
+    archivo = open('redsocial.svg','w')
     archivo.write(archivoHTML)
     archivo.close()
 

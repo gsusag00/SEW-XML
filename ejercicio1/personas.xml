@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persona xmlns="http://www.uniovi.es/personas" xsi:schemaLocation="http://www.uniovi.es/personas personas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nombre="Jesús" apellidos="Alonso García">
+<persona xmlns="http://www.uniovi.es/personas" xsi:schemaLocation="http://www.uniovi.es/personas personas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nombre="Jesus" apellidos="Alonso Garcia">
 	<nacimiento fecha="05/07/2000" lugar="Oviedo">
 		<coordenadas altitud="224" latitud="43.36347538113813" longitud="-5.844540267411897"/>
 	</nacimiento>
@@ -11,7 +11,7 @@
 	</comentarios>
 	<amigos>
 		<persona nombre="Earlene" apellidos="Aleks">
-			<nacimiento fecha="16/10/1950" lugar="A coruña">
+			<nacimiento fecha="16/10/1950" lugar="A coruna">
 				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
 			</nacimiento>
 			<fotografias>
@@ -64,7 +64,7 @@
 				<fotografia path=""/>
 			</fotografias>
 			<comentarios>
-				<comentario valor="Juega muy bien al fútbol"/>
+				<comentario valor="Juega muy bien al futbol"/>
 			</comentarios>
 			<amigos>
 				<persona nombre="Liz" apellidos="Charles">

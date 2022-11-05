@@ -11,7 +11,7 @@
 	</comentarios>
 	<amigos>
 		<persona nombre="Earlene" apellidos="Aleks">
-			<nacimiento fecha="16/10/1950" lugar="A coruña">
+			<nacimiento fecha="16/10/1950" lugar="A coruna">
 				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
 			</nacimiento>
 			<fotografias>
@@ -64,7 +64,7 @@
 				<fotografia path=""/>
 			</fotografias>
 			<comentarios>
-				<comentario valor="Juega muy bien al fútbol"/>
+				<comentario valor="Juega muy bien al futbol"/>
 			</comentarios>
 			<amigos>
 				<persona nombre="Liz" apellidos="Charles">

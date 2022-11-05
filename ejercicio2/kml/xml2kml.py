@@ -7,7 +7,6 @@ doc, tag, text, line = Doc().ttl()
     Parsea el xml, devuelve una lista con el xml paraseado
 """
 def parseXML(file):
-
     try: 
         cadena = ET.parse(file)
     except IOError:
@@ -43,7 +42,7 @@ def processPersona(persona):
 
 def main(): 
     
-    file = input('Por favor introduce el archivo que quieres convertir a html\n')
+    file = input('Por favor introduce el archivo que quieres convertir a kml\n')
 
     cadena = parseXML(file)
 
