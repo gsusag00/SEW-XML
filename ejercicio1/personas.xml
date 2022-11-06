@@ -15,7 +15,7 @@
 				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
 			</nacimiento>
 			<fotografias>
-				<fotografia path="img/f2.png"/>
+				<fotografia path="img/f2.jpg"/>
 			</fotografias>
 			<comentarios>
 				<comentario valor="Muy buena"/>
@@ -26,7 +26,7 @@
 						<coordenadas altitud="827" latitud="42.60080451442869" longitud="-5.573273793628222"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f3.png"/>
+						<fotografia path="img/f3.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Muy lista"/>
@@ -37,7 +37,7 @@
 						<coordenadas altitud="14" latitud="43.267802182831296" longitud="-2.9332234211251147"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f4.png"/>
+						<fotografia path="img/f4.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Muy trabajadora"/>
@@ -48,7 +48,7 @@
 						<coordenadas altitud="14" latitud="38.547322219459964" longitud="-0.12553480285098015"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f5.png"/>
+						<fotografia path="img/f5.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Muy ordenada"/>
@@ -61,7 +61,7 @@
 				<coordenadas altitud="14" latitud="43.53204537348051" longitud=" -5.661588678368995"/>
 			</nacimiento>
 			<fotografias>
-				<fotografia path="img/f6.png"/>
+				<fotografia path="img/f6.jpg"/>
 			</fotografias>
 			<comentarios>
 				<comentario valor="Juega muy bien al futbol"/>
@@ -72,7 +72,7 @@
 						<coordenadas altitud="2" latitud="43.55940487852019" longitud="-5.923857470041392"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f7.png"/>
+						<fotografia path="img/f7.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Le gusta mucho bailar"/>
@@ -83,7 +83,7 @@
 						<coordenadas altitud="51" latitud="43.59032425126038" longitud="-5.767211364172307"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f8.png"/>
+						<fotografia path="img/f8.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Fan del madrid"/>
@@ -94,7 +94,7 @@
 						<coordenadas altitud="6" latitud="37.392536442706486" longitud="-5.983213245168238"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f9.png"/>
+						<fotografia path="img/f9.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Fan del atletico de madrid"/>
@@ -107,7 +107,7 @@
 				<coordenadas altitud="669" latitud="40.43055280114602" longitud="-3.707012187865398"/>
 			</nacimiento>
 			<fotografias>
-				<fotografia path="img/f10.png"/>
+				<fotografia path="img/f10.jpg"/>
 			</fotografias>
 			<comentarios>
 				<comentario valor="Habla 5 idiomas"/>
@@ -118,7 +118,7 @@
 						<coordenadas altitud="731" latitud="41.37976747685414" longitud="2.1089443268284307"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f11.png"/>
+						<fotografia path="img/f11.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Juega al Lol"/>
@@ -129,7 +129,7 @@
 						<coordenadas altitud="6" latitud="39.48299660008014" longitud="-0.3752540631832583"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f12.png"/>
+						<fotografia path="img/f12.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="No juega al lol"/>
@@ -140,7 +140,7 @@
 						<coordenadas altitud="497" latitud="37.779190851694956" longitud="-3.7847904126829364"/>
 					</nacimiento>
 					<fotografias>
-						<fotografia path="img/f13.png"/>
+						<fotografia path="img/f13.jpg"/>
 					</fotografias>
 					<comentarios>
 						<comentario valor="Basado"/>

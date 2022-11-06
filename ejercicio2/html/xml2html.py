@@ -27,7 +27,7 @@ def createHTML(cadena):
         doc.attr(lang='es')
         with tag('head'):
             doc.asis('<meta charset="UTF-8">')
-            doc.asis('<link rel="stylesheet" href="./estilo.css">')
+            doc.asis('<link rel="stylesheet" href="estilo.css">')
             with tag('title'):
                 text('Red Social.')
         with tag('body'):
@@ -39,40 +39,44 @@ def createHTML(cadena):
 def processPersona(persona,header):
     nombre = persona.attrib['nombre']
     apellido = persona.attrib['apellidos']
-    with tag('h'+str(header)):
-        text(nombre + ' ' + apellido)
-    nacimiento = persona.find(namespace+"nacimiento")
-    with tag('h' + str(header)):
-        text('Nacimiento:')
-    with tag('p'):
-        text('Fecha: ' + nacimiento.attrib['fecha'])
-    with tag('h' + str(header)):
-        text('Lugar de nacimiento')
-    with tag('p'):
-        text('De: ' + nacimiento.attrib['lugar'])
-    with tag('h' + str(header)):
-        text('Fotos')
-    for fotografia in persona.find(namespace+"fotografias").findall(namespace+"fotografia"):
-        with tag('picture'):
-            img = '<img src="' + fotografia.attrib["path"] + '" alt="Foto de ' + nombre + ' ' + apellido + '">'
-            doc.asis(img)
-    if persona.find(namespace+'videos') != None:
-        with tag('h' + str(header)):
-            text('Videos')
-        for video in persona.find(namespace+"videos").findall(namespace+"video"):
-            with tag('video', controls):
-                video = '<source src="' + video.attrib[path] + '" type="video/mp4">'
-                doc.asis(video)
-    with tag('h'+str(header)):
-        text('Comentarios: ')
-    for comentario in persona.find(namespace+"comentarios").findall(namespace+"comentario"):
-        with tag('p'):
-            text("Comentario: " + comentario.attrib["valor"])
-    if persona.find(namespace+"amigos") != None:
+    with tag('section'):
         with tag('h'+str(header)):
-            text('Amigos')
-        for amigo in persona.find(namespace+"amigos").findall(namespace+"persona"):
-            processPersona(amigo,header+1)
+            text(nombre + ' ' + apellido)
+        nacimiento = persona.find(namespace+"nacimiento")
+        with tag('h' + str(header)):
+            text('Nacimiento:')
+        with tag('p'):
+            text('Fecha: ' + nacimiento.attrib['fecha'])
+        with tag('h' + str(header)):
+            text('Lugar de nacimiento')
+        with tag('p'):
+            text('De: ' + nacimiento.attrib['lugar'])
+        with tag('h' + str(header)):
+            text('Fotos')
+        with tag('aside'): 
+            for fotografia in persona.find(namespace+"fotografias").findall(namespace+"fotografia"):
+                with tag('picture'):
+                    img = '<img src="' + fotografia.attrib["path"] + '" alt="Foto de ' + nombre + ' ' + apellido + '">'
+                    doc.asis(img)
+        
+        if persona.find(namespace+'videos') != None:
+            with tag('h' + str(header)):
+                text('Videos')
+            with tag('aside'):
+                for video in persona.find(namespace+"videos").findall(namespace+"video"):
+                    with tag('video', controls):
+                        video = '<source src="' + video.attrib[path] + '" type="video/mp4">'
+                        doc.asis(video)
+        with tag('h'+str(header)):
+            text('Comentarios: ')
+        for comentario in persona.find(namespace+"comentarios").findall(namespace+"comentario"):
+            with tag('p'):
+                text("Comentario: " + comentario.attrib["valor"])
+        if persona.find(namespace+"amigos") != None:
+            with tag('h'+str(header)):
+                text('Amigos')
+            for amigo in persona.find(namespace+"amigos").findall(namespace+"persona"):
+                processPersona(amigo,header+1)
     doc.getvalue()
 
 def main(): 
