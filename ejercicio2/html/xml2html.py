@@ -20,14 +20,14 @@ def parseXML(file):
     return cadena
 
 def createHTML(cadena):
-    estilo = '.\estilo.css' 
+    estilo = './estilo.css' 
     raiz = cadena.getroot()
     doc.asis('<!DOCTYPE html>')
     with tag('html'):
         doc.attr(lang='es')
         with tag('head'):
-            doc.stag('meta',charset='UTF-8')
-            doc.stag('link', rel='stylesheet', href=estilo)
+            doc.asis('<meta charset="UTF-8">')
+            doc.asis('<link rel="stylesheet" href="./estilo.css">')
             with tag('title'):
                 text('Red Social.')
         with tag('body'):
@@ -54,13 +54,15 @@ def processPersona(persona,header):
         text('Fotos')
     for fotografia in persona.find(namespace+"fotografias").findall(namespace+"fotografia"):
         with tag('picture'):
-            doc.stag('img',src=fotografia.attrib["path"], alt="Foto del " + nombre + " " + apellido)
+            img = '<img src="' + fotografia.attrib["path"] + '" alt="Foto de ' + nombre + ' ' + apellido + '">'
+            doc.asis(img)
     if persona.find(namespace+'videos') != None:
         with tag('h' + str(header)):
             text('Videos')
         for video in persona.find(namespace+"videos").findall(namespace+"video"):
-            with tag('video'):
-                doc.stag('source',src=video.attrib["path"], type='video/mp4')
+            with tag('video', controls):
+                video = '<source src="' + video.attrib[path] + '" type="video/mp4">'
+                doc.asis(video)
     with tag('h'+str(header)):
         text('Comentarios: ')
     for comentario in persona.find(namespace+"comentarios").findall(namespace+"comentario"):
@@ -71,7 +73,7 @@ def processPersona(persona,header):
             text('Amigos')
         for amigo in persona.find(namespace+"amigos").findall(namespace+"persona"):
             processPersona(amigo,header+1)
-    indent(doc.getvalue())
+    doc.getvalue()
 
 def main(): 
     
