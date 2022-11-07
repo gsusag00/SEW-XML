@@ -17,6 +17,7 @@ textstyle = "fill:black"
 
 def createSVG(cadena):
     raiz = cadena.getroot()
+    persona = raiz.find(namespace + 'persona')
     doc.asis('<?xml version="1.0" encoding="UTF-8"?>')
     with tag('svg'):
         doc.attr(width='2000')
@@ -24,7 +25,7 @@ def createSVG(cadena):
         doc.attr(style='overflow:visible')
         doc.attr(version='1.1')
         doc.attr(xmlns='http://www.w3.org/2000/svg')
-        drawRecs(raiz,initialx,initialy,3)   
+        drawRecs(persona,initialx,initialy,3)   
     return indent(doc.getvalue())
 
 def drawRecs(persona,xpos,ypos,mult):

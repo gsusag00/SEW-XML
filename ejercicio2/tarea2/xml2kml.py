@@ -14,7 +14,8 @@ def createKML(cadena):
         doc.attr(xmlns="http://earth.google.com/kml/2.2")
         with tag('Document'):
             line('name',"Red Social")
-            processPersona(raiz)   
+            persona = raiz.find(namespace+'persona')
+            processPersona(persona)   
     return indent(doc.getvalue())
 
 def processPersona(persona):
