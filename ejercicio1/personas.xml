@@ -3,6 +3,9 @@
 	<nacimiento fecha="05/07/2000" lugar="Oviedo">
 		<coordenadas altitud="224" latitud="43.36347538113813" longitud="-5.844540267411897"/>
 	</nacimiento>
+	<residencia lugar="A coruna">
+		<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+	</residencia>
 	<fotografias>
 		<fotografia path="img/f1.png"/>
 	</fotografias>
@@ -14,6 +17,9 @@
 			<nacimiento fecha="16/10/1950" lugar="A coruna">
 				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
 			</nacimiento>
+			<residencia lugar="A coruna">
+				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+			</residencia>
 			<fotografias>
 				<fotografia path="img/f2.jpg"/>
 			</fotografias>
@@ -25,6 +31,9 @@
 					<nacimiento fecha="24/12/1963" lugar="Leon">
 						<coordenadas altitud="827" latitud="42.60080451442869" longitud="-5.573273793628222"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f3.jpg"/>
 					</fotografias>
@@ -36,6 +45,9 @@
 					<nacimiento fecha="18/08/1964" lugar="Bilbao">
 						<coordenadas altitud="14" latitud="43.267802182831296" longitud="-2.9332234211251147"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f4.jpg"/>
 					</fotografias>
@@ -47,6 +59,9 @@
 					<nacimiento fecha="15/02/1984" lugar="Benidorm">
 						<coordenadas altitud="14" latitud="38.547322219459964" longitud="-0.12553480285098015"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f5.jpg"/>
 					</fotografias>
@@ -60,6 +75,9 @@
 			<nacimiento fecha="25/03/1987" lugar="Gijon">
 				<coordenadas altitud="14" latitud="43.53204537348051" longitud=" -5.661588678368995"/>
 			</nacimiento>
+			<residencia lugar="A coruna">
+				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+			</residencia>
 			<fotografias>
 				<fotografia path="img/f6.jpg"/>
 			</fotografias>
@@ -71,6 +89,9 @@
 					<nacimiento fecha="20/04/1992" lugar="Aviles">
 						<coordenadas altitud="2" latitud="43.55940487852019" longitud="-5.923857470041392"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f7.jpg"/>
 					</fotografias>
@@ -82,6 +103,9 @@
 					<nacimiento fecha="01/08/1994" lugar="Candas">
 						<coordenadas altitud="51" latitud="43.59032425126038" longitud="-5.767211364172307"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f8.jpg"/>
 					</fotografias>
@@ -93,6 +117,9 @@
 					<nacimiento fecha="02/07/1998" lugar="Sevilla">
 						<coordenadas altitud="6" latitud="37.392536442706486" longitud="-5.983213245168238"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f9.jpg"/>
 					</fotografias>
@@ -106,6 +133,9 @@
 			<nacimiento fecha="20/03/2008" lugar="Madrid">
 				<coordenadas altitud="669" latitud="40.43055280114602" longitud="-3.707012187865398"/>
 			</nacimiento>
+			<residencia lugar="A coruna">
+				<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+			</residencia>
 			<fotografias>
 				<fotografia path="img/f10.jpg"/>
 			</fotografias>
@@ -117,6 +147,9 @@
 					<nacimiento fecha="17/12/2013" lugar="Barcelona">
 						<coordenadas altitud="731" latitud="41.37976747685414" longitud="2.1089443268284307"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f11.jpg"/>
 					</fotografias>
@@ -128,6 +161,9 @@
 					<nacimiento fecha="20/05/2015" lugar="Valencia">
 						<coordenadas altitud="6" latitud="39.48299660008014" longitud="-0.3752540631832583"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f12.jpg"/>
 					</fotografias>
@@ -139,6 +175,9 @@
 					<nacimiento fecha="12/02/2016" lugar="Jaen">
 						<coordenadas altitud="497" latitud="37.779190851694956" longitud="-3.7847904126829364"/>
 					</nacimiento>
+					<residencia lugar="A coruna">
+						<coordenadas altitud="26" latitud="43.368342209026466" longitud="-8.409596135871102"/>
+					</residencia>
 					<fotografias>
 						<fotografia path="img/f13.jpg"/>
 					</fotografias>

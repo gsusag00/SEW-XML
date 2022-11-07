@@ -1,5 +1,6 @@
 <!ELEMENT persona (nacimiento, fotografias, videos?, comentarios?, amigos?)>
 <!ELEMENT nacimiento (coordenadas)>
+<!ELEMENT residencia (coordenadas)>
 <!ELEMENT coordenadas (#PCDATA)>
 <!ELEMENT fotografias (fotografia+)>
 <!ELEMENT fotografia (#PCDATA)>
@@ -14,6 +15,9 @@
 >
 <!ATTLIST nacimiento
     fecha CDATA #REQUIRED
+    lugar CDATA #REQUIRED
+>
+<!ATTLIST residencia
     lugar CDATA #REQUIRED
 >
 <!ATTLIST coordenadas
