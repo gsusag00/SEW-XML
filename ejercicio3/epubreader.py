@@ -32,13 +32,17 @@ def editContents(raiz):
             meta.text = newval
         elif toedit.lower() == 'contributor':
             contributors = metadata.findall(purl+toedit)
-            print(contributors)
             length = len(contributors)
-            number = input(f"Que numero quieres editar: 0-{length-1}")
-            contributor = contributors.find(purl+toedit.lower())[int(number)]
+            number = input(f"Que numero quieres editar: 0-{length-1}\n")
+            num = int(number)
+            while num not in range(0,length-1):
+                number = input(f"El valor tiene que ser del 0 al {length-1} pruebe otra vez.\n")
+                num = int(number)
+            contributor = contributors[num]
             print(f"Valor de {toedit.lower()} es {contributor.text}")
             newval = input("Que valor quieres que tome: \n")
-            contributor.text = newval
+            if newval:
+                contributor.text = newval
         else: 
             element = metadata.find(purl+toedit.lower())
             print(f"Valor de {toedit.lower()} es {element.text}")
@@ -67,7 +71,6 @@ def main():
     name = file.replace('.epub','')
     unzipped_directory = 'unzipped_' + name
     package_opf_file = unzipped_directory + '/EPUB/package.opf'
-    print (package_opf_file)
 
     with ZipFile(file) as zip_ref:
         zip_ref.extractall(unzipped_directory)
