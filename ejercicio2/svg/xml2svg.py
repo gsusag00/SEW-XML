@@ -1,6 +1,8 @@
-import xml.etree.ElementTree as ET
-from yattag import Doc
-from yattag import indent
+import sys
+sys.path.append('../')
+from parse.parse_xml import parseXML
+from yattag.doc import Doc
+from yattag.indentation import indent
 import codecs
 namespace = "{http://www.uniovi.es/personas}"
 doc, tag, text, line = Doc().ttl()
@@ -12,22 +14,8 @@ rectstyle = "fill:white; stroke:black;stroke-width:1"
 linestyle = "fill:transparent;stroke:black"
 personstyle = "fill:blue"
 textstyle = "fill:black"
-"""
-    Parsea el xml, devuelve una lista con el xml paraseado
-"""
-def parseXML(file):
 
-    try: 
-        cadena = ET.parse(file)
-    except IOError:
-        print('No se encuentra el archivo')
-        exit()
-    except ET.ParseError:
-        print('Error parseando el archivo xml.')
-        exit()
-    return cadena
-
-def createHTML(cadena):
+def createSVG(cadena):
     raiz = cadena.getroot()
     doc.asis('<?xml version="1.0" encoding="UTF-8"?>')
     with tag('svg'):
@@ -71,9 +59,9 @@ def main():
 
     cadena = parseXML(file)
 
-    archivoHTML = createHTML(cadena)
+    archivoSVG = createSVG(cadena)
     archivo = open('redsocial.svg','w')
-    archivo.write(archivoHTML)
+    archivo.write(archivoSVG)
     archivo.close()
 
 if __name__ == '__main__':

@@ -1,23 +1,11 @@
-import xml.etree.ElementTree as ET
-from yattag import Doc
-from yattag import indent
-import codecs
+import sys
+sys.path.append('../')
+from parse.parse_xml import parseXML
+from yattag.doc import Doc
+from yattag.indentation import indent
 namespace = "{http://www.uniovi.es/personas}"
 doc, tag, text, line = Doc().ttl()
-"""
-    Parsea el xml, devuelve una lista con el xml paraseado
-"""
-def parseXML(file):
 
-    try: 
-        cadena = ET.parse(file)
-    except IOError:
-        print('No se encuentra el archivo')
-        exit()
-    except ET.ParseError:
-        print('Error parseando el archivo xml.')
-        exit()
-    return cadena
 
 def createHTML(cadena):
     estilo = './estilo.css' 
@@ -64,8 +52,8 @@ def processPersona(persona,header):
                 text('Videos')
             with tag('aside'):
                 for video in persona.find(namespace+"videos").findall(namespace+"video"):
-                    with tag('video', controls):
-                        video = '<source src="' + video.attrib[path] + '" type="video/mp4">'
+                    with tag('video'):
+                        video = '<source src="' + video.attrib['path'] + '" type="video/mp4">'
                         doc.asis(video)
         with tag('h'+str(header)):
             text('Comentarios: ')

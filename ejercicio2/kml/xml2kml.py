@@ -1,21 +1,11 @@
-import xml.etree.ElementTree as ET
-from yattag import Doc
-from yattag import indent
+import sys
+sys.path.append('../')
+from parse.parse_xml import parseXML
+from yattag.doc import Doc
+from yattag.indentation import indent
 namespace = "{http://www.uniovi.es/personas}"
 doc, tag, text, line = Doc().ttl()
-"""
-    Parsea el xml, devuelve una lista con el xml paraseado
-"""
-def parseXML(file):
-    try: 
-        cadena = ET.parse(file)
-    except IOError:
-        print('No se encuentra el archivo')
-        exit()
-    except ET.ParseError:
-        print('Error parseando el archivo xml.')
-        exit()
-    return cadena
+
 
 def createKML(cadena):
     raiz = cadena.getroot()
@@ -46,9 +36,9 @@ def main():
 
     cadena = parseXML(file)
 
-    archivoHTML = createKML(cadena)
+    archivoKML = createKML(cadena)
     archivo = open('red_social.kml','w')
-    archivo.write(archivoHTML)
+    archivo.write(archivoKML)
     archivo.close()
 
 if __name__ == '__main__':
