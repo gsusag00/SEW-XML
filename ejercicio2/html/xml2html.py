@@ -31,6 +31,7 @@ def processPersona(persona,header):
         with tag('h'+str(header)):
             text(nombre + ' ' + apellido)
         nacimiento = persona.find(namespace+"nacimiento")
+        residencia = persona.find(namespace+"residencia")
         with tag('h' + str(header)):
             text('Nacimiento:')
         with tag('p'):
@@ -40,13 +41,16 @@ def processPersona(persona,header):
         with tag('p'):
             text('De: ' + nacimiento.attrib['lugar'])
         with tag('h' + str(header)):
+            text('Lugar de residencia')
+        with tag('p'):
+            text('De: ' + residencia.attrib['lugar'])
+        with tag('h' + str(header)):
             text('Fotos')
         with tag('aside'): 
             for fotografia in persona.find(namespace+"fotografias").findall(namespace+"fotografia"):
                 with tag('picture'):
                     img = '<img src="' + fotografia.attrib["path"] + '" alt="Foto de ' + nombre + ' ' + apellido + '">'
                     doc.asis(img)
-        
         if persona.find(namespace+'videos') != None:
             with tag('h' + str(header)):
                 text('Videos')
