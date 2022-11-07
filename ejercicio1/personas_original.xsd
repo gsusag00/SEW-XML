@@ -4,6 +4,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="nacimiento" />
+				<xs:element ref="residencia" />
 				<xs:element ref="fotografias" />
 				<xs:element minOccurs="0" maxOccurs="1" ref="videos" />
 				<xs:element minOccurs="0" maxOccurs="1" ref="comentarios" />
@@ -19,6 +20,14 @@
 				<xs:element ref="coordenadas" />
 			</xs:sequence>
 			<xs:attribute name="fecha" type="xs:string" use="required" />
+			<xs:attribute name="lugar" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="residencia">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="coordenadas" />
+			</xs:sequence>
 			<xs:attribute name="lugar" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
