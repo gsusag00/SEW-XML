@@ -8,7 +8,7 @@ namespace = "{http://www.uniovi.es/personas}"
 doc, tag, text, line = Doc().ttl()
 initialx = 20
 initialy = 20
-width = 200
+width = 225
 height = 80
 rectstyle = "fill:white; stroke:black;stroke-width:1"
 linestyle = "fill:transparent;stroke:black"
@@ -50,13 +50,13 @@ def drawRecs(persona,xpos,ypos,mult):
     if persona.find(namespace+"amigos") != None:
         prevypos = ypos
         for amigo in persona.find(namespace+"amigos").findall(namespace+"persona"):
-            drawRecs(amigo,xpos+230,ypos,1)
+            drawRecs(amigo,xpos+255,ypos,1)
             drawLine(xpos,ypos,prevypos)
             ypos += (100 * mult)
     indent(doc.getvalue())
 
 def drawLine(xpos,ypos,prevypos):
-    doc.stag('line',x1=str(xpos+width),y1=str(prevypos+(height/2)),x2=str(xpos+230),y2=str(ypos+(height/2)),style=linestyle)
+    doc.stag('line',x1=str(xpos+width),y1=str(prevypos+(height/2)),x2=str(xpos+255),y2=str(ypos+(height/2)),style=linestyle)
 
 def main(): 
     
