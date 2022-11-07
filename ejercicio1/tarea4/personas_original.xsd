@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <xs:schema xmlns="http://tempuri.org/personas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/personas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="redsocial">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="persona" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="persona">
 		<xs:complexType>
 			<xs:sequence>
