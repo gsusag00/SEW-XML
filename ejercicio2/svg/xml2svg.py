@@ -9,7 +9,7 @@ doc, tag, text, line = Doc().ttl()
 initialx = 20
 initialy = 20
 width = 200
-height = 70
+height = 80
 rectstyle = "fill:white; stroke:black;stroke-width:1"
 linestyle = "fill:transparent;stroke:black"
 personstyle = "fill:blue"
@@ -42,6 +42,10 @@ def drawRecs(persona,xpos,ypos,mult):
     #fecha
     with tag('text', x=str(xpos+10), y=str(ypos+60), style=textstyle):
         text('Nacimiento: ' + nacimiento.attrib['fecha'])
+    #residencia
+    residencia = persona.find(namespace+'residencia')
+    with tag('text', x=str(xpos+10), y=str(ypos+75), style=textstyle):
+        text('Vive en: ' + residencia.attrib['lugar'])
     if persona.find(namespace+"amigos") != None:
         prevypos = ypos
         for amigo in persona.find(namespace+"amigos").findall(namespace+"persona"):

@@ -26,6 +26,14 @@ def processPersona(persona):
             longitud = coordenadas.attrib['longitud']
             altitud = coordenadas.attrib['altitud']
             line('coordinates','\n' + str(longitud)+','+str(latitud)+',0\n')
+    with tag('Placemark'):
+        line('name','Residencia de: ' + persona.attrib['nombre'] + ' ' + persona.attrib['apellidos'])
+        with tag('Point'):
+            coordenadas = persona.find(namespace+"residencia").find(namespace+"coordenadas")
+            latitud = coordenadas.attrib['latitud']
+            longitud = coordenadas.attrib['longitud']
+            altitud = coordenadas.attrib['altitud']
+            line('coordinates','\n' + str(longitud)+','+str(latitud)+',0\n')
     if persona.find(namespace+'amigos') != None:
         for amigo in persona.find(namespace+'amigos').findall(namespace+'persona'):
             processPersona(amigo)
