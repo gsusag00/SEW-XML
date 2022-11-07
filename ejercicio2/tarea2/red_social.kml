@@ -12,9 +12,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Jesus Alonso Garcia</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-1.9798283770740424,43.31837456811466,0
 </coordinates>
       </Point>
     </Placemark>
@@ -28,9 +29,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Earlene Aleks</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-8.543055393334193,42.88144149229032,0
 </coordinates>
       </Point>
     </Placemark>
@@ -44,9 +46,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Joanna Dominguez</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-4.734692416721377,41.65162754873303,0
 </coordinates>
       </Point>
     </Placemark>
@@ -60,9 +63,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Marissa Montoya</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-5.664408002872046,40.976637876179204,0
 </coordinates>
       </Point>
     </Placemark>
@@ -76,9 +80,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Valerie Larson</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-4.020725761920611,39.864760322733204,0
 </coordinates>
       </Point>
     </Placemark>
@@ -92,9 +97,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Bridget Cisneros</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-6.97532941176084,38.8755545605148,0
 </coordinates>
       </Point>
     </Placemark>
@@ -108,9 +114,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Liz Charles</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-1.646597774278748,42.8227318224867,0
 </coordinates>
       </Point>
     </Placemark>
@@ -124,9 +131,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Booker Dawson</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+1.2475002068628172,41.13347793847621,0
 </coordinates>
       </Point>
     </Placemark>
@@ -140,9 +148,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Wanda Bennett</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+2.7471527875874866,39.548141500943174,0
 </coordinates>
       </Point>
     </Placemark>
@@ -156,9 +165,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Rory Zhang</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+1.4224356357449488,38.90570429738241,0
 </coordinates>
       </Point>
     </Placemark>
@@ -172,9 +182,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Jayne Hunt</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-2.457119149693391,36.83656171792057,0
 </coordinates>
       </Point>
     </Placemark>
@@ -188,9 +199,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Polly Waller</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-9.129314151613583,38.716224620624324,0
 </coordinates>
       </Point>
     </Placemark>
@@ -204,9 +216,10 @@
     </Placemark>
     <Placemark>
       <name>Residencia de: Wilford Cameron</name>
+      <styleUrl>#placemark-red</styleUrl>
       <Point>
         <coordinates>
--8.409596135871102,43.368342209026466,0
+-8.63638283401369,41.15482052564792,0
 </coordinates>
       </Point>
     </Placemark>
