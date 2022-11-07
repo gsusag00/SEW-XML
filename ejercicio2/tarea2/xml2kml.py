@@ -29,9 +29,6 @@ def processPersona(persona):
             line('coordinates','\n' + str(longitud)+','+str(latitud)+',0\n')
     with tag('Placemark'):
         line('name','Residencia de: ' + persona.attrib['nombre'] + ' ' + persona.attrib['apellidos'])
-        #<styleUrl>#placemark-red</styleUrl>
-        with tag('styleUrl'):
-            text('#placemark-red')
         with tag('Point'):
             coordenadas = persona.find(namespace+"residencia").find(namespace+"coordenadas")
             latitud = coordenadas.attrib['latitud']
