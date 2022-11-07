@@ -21,7 +21,8 @@ def createHTML(cadena):
         with tag('body'):
             with tag('h1'):
                 text('Red Social')
-            processPersona(raiz,2)   
+            persona = raiz.find(namespace+'persona')
+            processPersona(persona,2)   
     return indent(doc.getvalue())
 
 def processPersona(persona,header):
